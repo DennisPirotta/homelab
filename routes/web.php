@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/verify-dns',function (){ return 'trustcor-ca-xsOBynEXREagpcHgCz0LqN4IhK+IuYNxHolc3Xc/Q+mXLSAb27vVzN71Bo6GbC1HEZ0V5ZNwG6hkNxZY2oCbuTVu6sCP5JNSiEUtPWiCXsahy1RGlhxXTYSH/IrqUpYLON7C8k9YDHNupEsCIN64'; });
